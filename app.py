@@ -95,7 +95,7 @@ class YouTubeDownloader:
         self.result_label.configure(text="Downloading...")
         self.url = self.url_box.get()
         
-        self.output_path = "C:/Users/shara/Downloads/YouTube Video Downloader"  # Change this to your desired output folder
+        self.output_path = "Downloads"  # Change this to your desired output folder
         os.makedirs(self.output_path, exist_ok=True)
 
         if self.choice == "v":
